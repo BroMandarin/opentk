@@ -47,6 +47,24 @@ namespace OpenTK.Mathematics
         public double Y;
 
         /// <summary>
+        /// Corresponds to the X component of this instance.
+        /// </summary>
+        public double Width
+		{
+			get => X;
+			set => X = value;
+		}
+
+        /// <summary>
+        /// Corresponds to the Y component of this instance.
+        /// </summary>
+        public double Height
+		{
+			get => Y;
+			set => Y = value;
+		}
+
+        /// <summary>
         /// Defines a unit-length Vector2d that points towards the X-axis.
         /// </summary>
         public static readonly Vector2d UnitX = new Vector2d(1, 0);

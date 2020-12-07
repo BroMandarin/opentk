@@ -50,6 +50,24 @@ namespace OpenTK.Mathematics
         public float Y;
 
         /// <summary>
+        /// Corresponds to the X component of the Vector2.
+        /// </summary>
+        public float Width
+		{
+			get => X;
+			set => X = value;
+		}
+
+        /// <summary>
+        /// Corresponds to the Y component of the Vector2.
+        /// </summary>
+        public float Height
+		{
+			get => Y;
+			set => Y = value;
+		}
+
+        /// <summary>
         /// Initializes a new instance of the <see cref="Vector2"/> struct.
         /// </summary>
         /// <param name="value">The value that will initialize this instance.</param>

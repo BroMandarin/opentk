@@ -49,6 +49,24 @@ namespace OpenTK.Mathematics
         public Half Y;
 
         /// <summary>
+        /// Corresponds to the X component of the Half2.
+        /// </summary>
+        public Half Width
+		{
+			get => X;
+			set => X = value;
+		}
+
+        /// <summary>
+        /// Corresponds to the Y component of the Half2.
+        /// </summary>
+        public Half Height
+		{
+			get => Y;
+			set => Y = value;
+		}
+
+        /// <summary>
         /// Initializes a new instance of the <see cref="Vector2h"/> struct.
         /// </summary>
         /// <param name="value">The value that will initialize this instance.</param>

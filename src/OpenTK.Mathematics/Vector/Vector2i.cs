@@ -37,6 +37,24 @@ namespace OpenTK.Mathematics
         public int Y;
 
         /// <summary>
+        /// Corresponds to the X component of the Vector2i.
+        /// </summary>
+        public int Width
+		{
+			get => X;
+			set => X = value;
+		}
+
+        /// <summary>
+        /// Corresponds to the Y component of the Vector2i.
+        /// </summary>
+        public int Height
+		{
+			get => Y;
+			set => Y = value;
+		}
+
+        /// <summary>
         /// Initializes a new instance of the <see cref="Vector2i"/> struct.
         /// </summary>
         /// <param name="value">The value that will initialize this instance.</param>
